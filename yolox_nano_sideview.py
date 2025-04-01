@@ -23,11 +23,11 @@ class Exp(MyExp):
         self.exp_name = os.path.split(os.path.realpath(__file__))[1].split(".")[0]
 
         # Define yourself dataset path
-        self.data_dir = "datasets/coco20250326"  # ここを変更
+        self.data_dir = "dataset/coco_sideview"
         self.train_ann = "instances_train2017.json"
         self.val_ann = "instances_val2017.json"
 
-        self.num_classes = 11  # ここを変更
+        self.num_classes = 2  # ここを変更
         self.max_epoch = 200
 
     def get_model(self, sublinear=False):
