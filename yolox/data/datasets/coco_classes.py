@@ -13,5 +13,8 @@ COCO_CLASSES = (
     "KatanagareFront",
     "YosemuneFront",
     "RikuYane",
-    "ManekiFront"
+    "ManekiFront",
+    "RikuYane",
+    "RikuYane",
+    "RikuYane"
 )
